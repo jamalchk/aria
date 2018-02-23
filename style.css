@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 900px;
+    background: rgb(211, 211, 211);
+}
+
+
+h1 {
+    margin-top: 16px;
+    width: 100%;
+    background-color: green;
+    padding: 12px;
+    color: white;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+main.main {
+    background-color: white;
+    padding: 12px;
+}
+
+input, select {
+    display: block;
+    margin-bottom: 16px;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
